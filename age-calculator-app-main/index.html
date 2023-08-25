@@ -21,14 +21,24 @@
 <body>
   <div class="main">
     <div class="birthDayDate">
-      <label for="day">DAY</label>
-      <label for="month">MONTH</label>
-      <label for="year">YEAR</label>
-      <br>
-      <input type="number" name="day" class="date"> 
-      <input type="number" name="month" class="date">
-      <input type="number" name="year" class="date"> 
+
+        <div class="first">
+          <label style="display: block;" for="day">DAY</label>
+          <input type="number" name="day" class="date"> 
+        </div>
+        <div class="second">
+          <label style="display: block;" for="month">MONTH</label>
+          <input type="number" name="month" class="date">
+        </div>
+        
+        <div class="third">
+          <label style="display: block;" for="year">YEAR</label>
+          <input type="number" name="year" class="date"> 
+        </div>
+        
+
     </div>
+    
     <div class="exacteAge">
       <span class="day">38</span> <p style="display: inline;">years </p> <br>
       <span class="month">20</span> <p style="display: inline;">months</p> <br>
