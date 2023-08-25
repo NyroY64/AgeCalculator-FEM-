@@ -1,7 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+
+
 body{
     background-color:hsl(0, 0%, 94%);
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    font-family: 'Poppins', sans-serif;
 }
 main{
-    background-color:hsl(0, 0%, 100%) ;
+
+    /* color */
+    background-color: hsl(0, 0%, 100%) ;
+
+
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: hsl(259, 100%, 65%);
+
+}
+.birthdayDate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.birthdayDate > label{
+    font-size: 12px;
+}
+
+.exacteAge > p{
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+}
+.exacteAge >
+
+input{
+    width: 20%;
+    height: 30px;
+    -moz-appearance: textfield;
+
+    border-width: thin;
+    border-radius: 5px;
+    border-color: hsl(0, 1%, 44%);
 }
