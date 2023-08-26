@@ -18,7 +18,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .main{
-    width: 70%;
+    width: 40%;
     height: 40%; 
     
 
@@ -26,7 +26,7 @@ body{
     background-color: hsl(0, 0%, 100%) ;
     
     /* border */
-    border-radius: 20px 20px 100px 20px;
+    border-radius: 20px 20px 120px 20px;
     padding: 2rem;
 
     /* flexbox */
@@ -45,8 +45,8 @@ span{
 
 }
 .birthdayDate{
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
+    
 }
 
 
@@ -66,10 +66,10 @@ span{
 }
 
 input{
-    width: 40%;
-    height: 30px;
+    width: 60%;
+    height: 40px;
 
-    -webkit-box-shadow:;
+    -webkit-box-shadow: none;
     box-shadow: none;
     border-width:0.01px;
     border-radius: 6px;
@@ -77,6 +77,7 @@ input{
     padding: 3%;  
     margin-bottom: 15%;
     margin-top: 2%;
+    padding-left:20px;
 
     font-weight: 800;
     font-size: large;
@@ -91,9 +92,23 @@ input{
 label{
     margin-top: 2em;
     color: hsl(0, 1%, 44%);
-    word-spacing: 30px;
+    letter-spacing: .2em;
 }
 
+button{
+    width: 15%;
+    padding: 3%;
+    background-color: hsl(259, 100%, 65%) ;
+
+    border-color: hsl(259, 100%, 65%);
+    border-radius:50% ;
+}
+
+.line{
+    width: 300px;
+    background-color: saddlebrown;
+    height: 1px;
+}
 
 
 
@@ -104,3 +119,13 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
+/*Interactivity */
+
+input:hover{
+    cursor:pointer ;
+    
+}
+
+input:focus{
+    border: 3px  hsl(259, 100%, 65%) ;
+}
