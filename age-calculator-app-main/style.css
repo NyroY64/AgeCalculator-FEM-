@@ -16,10 +16,12 @@ body{
 
     
     font-family: 'Poppins', sans-serif;
+
+    
 }
 .main{
-    width: 40%;
-    height: 40%; 
+    min-width: 40%;
+    min-height: 50%; 
     
 
     /* color */
@@ -44,11 +46,21 @@ span{
     font-style: italic;
 
 }
-.birthdayDate{
-    display: flex; 
+.birthDayDate:first-child{
+    margin-left: 30px;
+}
+
+
+.birthDayDate:last-child{
+    margin-right: 50px;
+    
+     
     
 }
 
+.exacteAge{
+    margin-left: 40px;
+}
 
 
 
@@ -68,6 +80,7 @@ span{
 input{
     width: 60%;
     height: 40px;
+    border:solid;
 
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -96,18 +109,22 @@ label{
 }
 
 button{
-    width: 15%;
-    padding: 3%;
+    
     background-color: hsl(259, 100%, 65%) ;
-
+    border: none;
+    padding: 20px;
+    display: inline-block;
     border-color: hsl(259, 100%, 65%);
     border-radius:50% ;
 }
 
-.line{
-    width: 300px;
-    background-color: saddlebrown;
-    height: 1px;
+hr{
+    border: 1px solid hsl(0, 0%, 86%);
+    width: 80%;
+    display: inline-block;
+    
+    margin: 0px 0px 20px 30px;
+    
 }
 
 
@@ -127,5 +144,13 @@ input:hover{
 }
 
 input:focus{
-    border: 3px  hsl(259, 100%, 65%) ;
+    border: 3px  solid hsl(259, 100%, 75%) ;
+}
+
+button:focus{
+    background-color: black;
+}
+
+button:hover{
+    cursor: pointer;
 }
